@@ -12,8 +12,8 @@ create properties file to add constant value.
 # keyAlias=upload
 # storeFile=keystore-file-location
 
-fill password that enter in command for storePassword and keyPassword
-for storeFile,add ../upload-keystore.jks if locate in android file
+fill password that enter in command for storePassword and keyPassword.
+For storeFile,add ../upload-keystore.jks if locate in android file
 
 Step (3)
 
