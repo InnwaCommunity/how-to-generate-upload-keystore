@@ -7,11 +7,12 @@ Initially, enter this command.fill the requirements.
 
 Step(2)
 create properties file to add constant value.
-# storePassword=<password-from-previous-step>
-# keyPassword=<password-from-previous-step>
+# storePassword=password-from-previous-step
+# keyPassword=password-from-previous-step
 # keyAlias=upload
-# storeFile=<keystore-file-location>
+# storeFile=keystore-file-location
 
+fill password that enter in command for storePassword and keyPassword
 for storeFile,add ../upload-keystore.jks if locate in android file
 
 Step (3)
