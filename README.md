@@ -1,5 +1,7 @@
 # how-to-generate-upload-keystore
 
+- Press photo to view youtube video
+[![keystore](https://github.com/InnwaCommunity/how-to-generate-upload-keystore/assets/126433520/af772867-4eb7-41c7-b30b-a2d0ccf78037)](https://youtu.be/JIzXExVoRP0)
 
 Step (1)
 
