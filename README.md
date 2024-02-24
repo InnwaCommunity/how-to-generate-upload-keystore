@@ -2,27 +2,28 @@
 
 
 Step (1)
+
 ```bash
     keytool -genkey -v -keystore Android/upload-keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload
-    ```
+```
 
 Initially, enter this command.fill the requirements.
 
 Step(2)
-create properties file to add constant value.
-      ```bash
+create key.properties file to add constant value in android folder
+```bash
     storePassword=password-from-previous-step
     keyPassword=password-from-previous-step
     keyAlias=upload
     storeFile=keystore-file-location
-    ```
+```
       
 
 fill password that enter in command for storePassword and keyPassword.
 For storeFile,add ../upload-keystore.jks if locate in android file
 
 Step (3)
- ```bash
+```bash
     signingConfigs {
        release {
            keyAlias keystoreProperties['keyAlias']
@@ -36,7 +37,7 @@ Step (3)
            signingConfig signingConfigs.release
        }
    }
-    ```
+```
 
 
 get properties values form above codes and then,
@@ -46,7 +47,7 @@ get properties values form above codes and then,
       if (keystorePropertiesFile.exists()) {
         keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
       }
-    ```
+```
    
 
 create release mode.
